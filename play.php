@@ -82,7 +82,7 @@ for($i = 0 ; $i < count($all_songs); $i = $i + 1 ){
 
  echo ' <h1>'.$all_songs[$i]['name'].'</h1>
  <h3>Singer: '.$all_songs[$i]['singer'].'</h1>
- <h3>Aulbm: '.$all_songs[$i]['album'].'</h1>
+ <h3>Album: '.$all_songs[$i]['album'].'</h1>
  <audio controls>
 <source src="music_target/'.$all_songs[$i]['song'].'" type="audio/mpeg">
 Your browser does not support the audio element.
