@@ -3,7 +3,7 @@ $i=0 ;
 if(isset($_POST['submit'])){
    include 'config.php';
    $collection = $db->song;
-   echo "Collection selected succsessfully";
+  // echo "Collection selected succsessfully";
    $song=time() . '.' . pathinfo($_FILES['song']['name'], PATHINFO_EXTENSION);
    $song_data=upload($song);
 
