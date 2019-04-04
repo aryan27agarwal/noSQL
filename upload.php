@@ -52,7 +52,6 @@ function upload($file)
             } else {
               //could no upload
                 return 2;
-
             }
         }
         else {
@@ -172,7 +171,7 @@ input[type=text]:focus, input[type=password]:focus {
     <input type="text" placeholder="Enter Song Name" name="name" required>
     <input type="text" placeholder="Enter Album Name" name="album" required>
     <input type="text" placeholder="Enter Singer Name" name="singer" required>
-    <label for="psw"><b>Uplaod Song (.mp3 format)</b></label> <br><br>
+    <label for="psw"><b>Upload Song (.mp3 format)</b></label> <br><br>
     <input type="file" placeholder="Enter Song Name" name="song" id="song"required>
     <br><br>
     <button type="submit" class="btn" name="submit">Done!</button>
